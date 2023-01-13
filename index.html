@@ -31,12 +31,12 @@
         </header>
     <main class="main">
         <!-------- HERO --------->
-        <div class="overlay">
+        <div class="hero-overlay">
         <section class="hero">
                 <h1 class="title">
                     Effective Solutions for Your Business
                 </h1>
-                <div><button class="btn" type="button">Order Service</button></div>
+                <div><button class="btn" type="button" data-modal-open>Order Service</button></div>
         </section>
         </div>
         <!------- BENEFITS ------->
@@ -334,5 +334,15 @@
             </div>
            </div>
     </footer> 
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-close" data-modal-close>
+                <svg class="icon">
+                    <use href="./images/svg/symbol-defs.svg#modal-close"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
