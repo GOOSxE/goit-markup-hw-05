@@ -471,6 +471,8 @@ color: var(--navy-blue-color);
 
   border: 1px solid var(--cornflower-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  transition-property: background-color,color,border,box-shadow;
+  transition-duration: 250ms;
 }
 .projects-list .item:hover, 
 .projects-list .item:focus {
@@ -560,7 +562,7 @@ color: var(--navy-blue-color);
   border: 1px solid var(--cornflower-color) ;
   cursor: pointer;
 
-  transition-property: background-color,color,border,box-shagow ;
+  transition-property: background-color,color,border,box-shadow ;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
