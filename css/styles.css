@@ -152,6 +152,9 @@ img {
 
   color: var(--slate-color);
 }
+.navigation .link, .contacts-list .link {
+  transition: color 250ms;
+}
 
 .navigation .link:hover,
 .navigation .link:hover,
